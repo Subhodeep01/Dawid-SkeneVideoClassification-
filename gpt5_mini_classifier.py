@@ -1,5 +1,5 @@
 """
-Video Classification using GPT-4o Vision API
+Video Classification using GPT-5-mini Vision API
 Processes videos from sampled_videos folder and classifies them into 60 action categories.
 """
 
@@ -122,8 +122,7 @@ Respond with ONLY the action name from the list above, nothing else. If you're u
                     "role": "user",
                     "content": content
                 }],
-                max_tokens=50,
-                temperature=0.1  # Low temperature for consistent classification
+                
             )
             
             # Extract prediction
