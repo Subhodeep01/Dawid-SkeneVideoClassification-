@@ -20,6 +20,7 @@ __pycache__/
 *.mov
 *.mkv
 *.webm
+*.jpg
 sampled_videos/
 selected_videos/
 kinetics400_5per/
