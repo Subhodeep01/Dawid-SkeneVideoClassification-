@@ -23,7 +23,7 @@ __pycache__/
 sampled_videos/
 selected_videos/
 kinetics400_5per/
-temp_frames/
+
 
 # CSV results (optional - remove these lines if you want to include results)
 # gemini_predictions*.csv
@@ -52,6 +52,7 @@ desktop.ini
 *.tmp
 temp/
 temp_upscaled/
+temp_frames/
 temp-audio.m4a
 
 # YouTube cookies (keep private!)
