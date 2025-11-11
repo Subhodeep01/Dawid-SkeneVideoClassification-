@@ -1,0 +1,50 @@
+video,ground_truth,our_prediction,crowdkit_prediction,our_correct,crowdkit_correct
+001.mp4,pumping fist,dancing macarena,watching tv,False,False
+017.mp4,abseiling,abseiling,swing,True,False
+032.mp4,ripping paper,feeding goats,baby waking up,False,False
+069.mp4,javelin throw,javelin throw,ERROR,True,False
+074.mp4,pumping fist,abseiling,dancing macarena,False,False
+076.mp4,hurdling,hurdling,running,True,False
+087.mp4,trimming or shaving beard,trimming or shaving beard,texting,True,False
+103.mp4,swinging legs,dancing ballet,ERROR,False,False
+104.mp4,doing nails,doing nails,writing on paper,True,False
+131.mp4,pumping fist,applauding,pumping fist,False,True
+192.mp4,laughing,laughing,reading,True,False
+217.mp4,blasting sand,spray painting,scaffolding,False,False
+271.mp4,pole vault,canoeing or kayaking,jumping,False,False
+285.mp4,balloon blowing,balloon blowing,blowing balloon,True,False
+300.mp4,sign language interpreting,sign language interpreting,holding baby,True,False
+321.mp4,playing didgeridoo,playing didgeridoo,singing,True,False
+331.mp4,playing trombone,playing trombone,smile,True,False
+360.mp4,playing didgeridoo,playing didgeridoo,drinking,True,False
+368.mp4,tying bow tie,tying bow tie,click here,True,False
+387.mp4,javelin throw,javelin throw,flying,True,False
+403.mp4,trimming or shaving beard,trimming or shaving beard,using laptop,True,False
+413.mp4,laying bricks,laying bricks,"as the method described involves very thin and narrow joints, it is essential to ensure close contact between blocks. you will reduce the occurrence of steps in the line of blocks by light tapping",True,False
+416.mp4,fixing hair,fixing hair,playing video game,True,False
+424.mp4,swinging legs,swinging legs,lunging,True,False
+426.mp4,bench pressing,bench pressing,lat pulldown,True,False
+429.mp4,playing xylophone,playing xylophone,playing with legos,True,False
+492.mp4,moving furniture,moving furniture,climbing,True,False
+507.mp4,ripping paper,ripping paper,opening trunk,True,False
+526.mp4,trimming or shaving beard,trimming or shaving beard,sleeping,True,False
+528.mp4,pumping fist,pumping fist,smoking,True,False
+532.mp4,pumping fist,applauding,waiting in line,False,False
+540.mp4,moving furniture,moving furniture,playing with doll,True,False
+569.mp4,spray painting,spray painting,spraying,True,False
+576.mp4,dunking basketball,dunking basketball,sitting,True,False
+616.mp4,javelin throw,javelin throw,playing frisbee,True,False
+632.mp4,tango dancing,tango dancing,dancing tango,True,False
+648.mp4,swinging legs,swinging legs,jumping,True,False
+691.mp4,squat,squat,open,True,False
+703.mp4,playing trombone,playing trombone,playing saxophone,True,False
+757.mp4,swinging legs,swinging legs,high knees,True,False
+793.mp4,squat,lunge,knees track over toes,False,False
+834.mp4,laughing,laughing,talking,True,False
+846.mp4,abseiling,abseiling,taking a picture,True,False
+848.mp4,laughing,applauding,shaking hands,False,False
+854.mp4,pumping fist,pumping fist,playing pool,True,False
+877.mp4,bench pressing,laying bricks,playing with dog,False,False
+883.mp4,vault,vault,judging,True,False
+896.mp4,dunking basketball,dunking basketball,playing basketball,True,False
+969.mp4,capoeira,capoeira,ERROR,True,False

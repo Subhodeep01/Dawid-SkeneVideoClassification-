@@ -1,0 +1,5 @@
+Classifier,Estimated_Accuracy
+Gemini,0.890244
+Qwen-VL,0.799814
+Replicate,0.681434
+MoonDream2,0.074013

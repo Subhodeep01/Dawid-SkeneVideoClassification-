@@ -1,0 +1,12 @@
+Metric,Value
+Total Samples,1000
+Correct Predictions,938
+Overall Accuracy,0.9380 (93.80%)
+Number of Classes,60
+Classes with 100% Accuracy,34 (56.7%)
+Classes with ≥90% Accuracy,46 (76.7%)
+Classes with <70% Accuracy,3 (5.0%)
+Best Class,abseiling (1.0000)
+Worst Class,pumping fist (0.3750)
+Average Class Accuracy,0.9374 (93.74%)
+Total Misclassifications,62 (6.20%)

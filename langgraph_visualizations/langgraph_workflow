@@ -1,0 +1,49 @@
+// Video Classification Workflow
+digraph LangGraph_Video_Classification {
+	rankdir=TB
+	size="16,12"
+	dpi=300
+	bgcolor=white
+	fontname=Arial
+	fontsize=12
+	START [label=START fillcolor="#95a5a6" fontcolor=white shape=circle style=filled]
+	load_videos [label="Load Videos" fillcolor="#3498db" fontcolor=white fontname="Arial Bold" fontsize=11 shape=box style=filled]
+	gemini [label=Gemini fillcolor="#2ecc71" fontcolor=white fontname="Arial Bold" fontsize=11 shape=ellipse style=filled]
+	twelvelabs [label="Twelve Labs" fillcolor="#2ecc71" fontcolor=white fontname="Arial Bold" fontsize=11 shape=ellipse style=filled]
+	gpt4o [label="GPT-4o-mini" fillcolor="#2ecc71" fontcolor=white fontname="Arial Bold" fontsize=11 shape=ellipse style=filled]
+	gpt5mini [label="GPT-5-mini" fillcolor="#2ecc71" fontcolor=white fontname="Arial Bold" fontsize=11 shape=ellipse style=filled]
+	replicate [label="Replicate
+(LLaVA-13b)" fillcolor="#2ecc71" fontcolor=white fontname="Arial Bold" fontsize=11 shape=ellipse style=filled]
+	moondream [label=MoonDream2 fillcolor="#2ecc71" fontcolor=white fontname="Arial Bold" fontsize=11 shape=ellipse style=filled]
+	qwen [label="Qwen-VL" fillcolor="#2ecc71" fontcolor=white fontname="Arial Bold" fontsize=11 shape=ellipse style=filled]
+	ensemble [label="Ensemble
+(Majority Voting)" fillcolor="#e74c3c" fontcolor=white fontname="Arial Bold" fontsize=11 shape=box style=filled]
+	dawid_skene [label="Dawid-Skene
+(EM Algorithm)" fillcolor="#e74c3c" fontcolor=white fontname="Arial Bold" fontsize=11 shape=box style=filled]
+	END1 [label=END fillcolor="#95a5a6" fontcolor=white shape=circle style=filled]
+	END2 [label=END fillcolor="#95a5a6" fontcolor=white shape=circle style=filled]
+	START -> load_videos [label=entry_point fontsize=9]
+	load_videos -> gemini [color="#2c3e50" penwidth=1.5]
+	load_videos -> twelvelabs [color="#2c3e50" penwidth=1.5]
+	load_videos -> gpt4o [color="#2c3e50" penwidth=1.5]
+	load_videos -> gpt5mini [color="#2c3e50" penwidth=1.5]
+	load_videos -> replicate [color="#2c3e50" penwidth=1.5]
+	load_videos -> moondream [color="#2c3e50" penwidth=1.5]
+	load_videos -> qwen [color="#2c3e50" penwidth=1.5]
+	gemini -> ensemble [color="#3498db" penwidth=2]
+	gemini -> dawid_skene [color="#3498db" penwidth=2]
+	twelvelabs -> ensemble [color="#3498db" penwidth=2]
+	twelvelabs -> dawid_skene [color="#3498db" penwidth=2]
+	gpt4o -> ensemble [color="#3498db" penwidth=2]
+	gpt4o -> dawid_skene [color="#3498db" penwidth=2]
+	gpt5mini -> ensemble [color="#3498db" penwidth=2]
+	gpt5mini -> dawid_skene [color="#3498db" penwidth=2]
+	replicate -> ensemble [color="#3498db" penwidth=2]
+	replicate -> dawid_skene [color="#3498db" penwidth=2]
+	moondream -> ensemble [color="#3498db" penwidth=2]
+	moondream -> dawid_skene [color="#3498db" penwidth=2]
+	qwen -> ensemble [color="#3498db" penwidth=2]
+	qwen -> dawid_skene [color="#3498db" penwidth=2]
+	ensemble -> END1 [label=output color="#e74c3c" fontsize=9 penwidth=2]
+	dawid_skene -> END2 [label=output color="#e74c3c" fontsize=9 penwidth=2]
+}

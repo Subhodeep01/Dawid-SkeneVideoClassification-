@@ -1,0 +1,8 @@
+Annotator,Estimated_Accuracy
+GPT-5-mini,0.963991
+Gemini,0.943991
+GPT-4o-mini,0.889006
+TwelveLabs,0.885996
+Qwen-VL,0.741009
+Replicate,0.645991
+MoonDream2,0.065000

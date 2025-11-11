@@ -1,0 +1,1001 @@
+video_name,predicted_class,confidence
+001.mp4,dancing macarena,1.000000
+002.mp4,playing chess,1.000000
+003.mp4,unloading truck,1.000000
+004.mp4,javelin throw,1.000000
+005.mp4,bandaging,1.000000
+006.mp4,lunge,1.000000
+007.mp4,laughing,1.000000
+008.mp4,bench pressing,1.000000
+009.mp4,bench pressing,1.000000
+010.mp4,shuffling cards,1.000000
+011.mp4,juggling soccer ball,1.000000
+012.mp4,bench pressing,1.000000
+013.mp4,riding elephant,1.000000
+014.mp4,canoeing or kayaking,1.000000
+015.mp4,dancing ballet,1.000000
+016.mp4,shuffling cards,1.000000
+017.mp4,abseiling,1.000000
+018.mp4,baby waking up,1.000000
+019.mp4,doing nails,1.000000
+020.mp4,lunge,1.000000
+021.mp4,skateboarding,1.000000
+022.mp4,snatch weight lifting,1.000000
+023.mp4,tango dancing,1.000000
+024.mp4,spray painting,1.000000
+025.mp4,shuffling cards,1.000000
+026.mp4,skateboarding,1.000000
+027.mp4,laughing,1.000000
+028.mp4,riding mountain bike,1.000000
+029.mp4,fixing hair,1.000000
+030.mp4,vault,1.000000
+031.mp4,baby waking up,1.000000
+032.mp4,feeding goats,1.000000
+033.mp4,dunking basketball,1.000000
+034.mp4,dunking basketball,1.000000
+035.mp4,swinging legs,1.000000
+036.mp4,playing chess,1.000000
+037.mp4,canoeing or kayaking,1.000000
+038.mp4,making snowman,1.000000
+039.mp4,pole vault,1.000000
+040.mp4,playing keyboard,1.000000
+041.mp4,tango dancing,1.000000
+042.mp4,feeding goats,1.000000
+043.mp4,changing oil,1.000000
+044.mp4,feeding goats,1.000000
+045.mp4,feeding goats,1.000000
+046.mp4,tango dancing,1.000000
+047.mp4,playing trombone,1.000000
+048.mp4,capoeira,1.000000
+049.mp4,capoeira,1.000000
+050.mp4,bandaging,1.000000
+051.mp4,capoeira,1.000000
+052.mp4,dancing ballet,1.000000
+053.mp4,capoeira,1.000000
+054.mp4,feeding goats,1.000000
+055.mp4,canoeing or kayaking,1.000000
+056.mp4,dancing charleston,1.000000
+057.mp4,playing chess,1.000000
+058.mp4,playing trombone,1.000000
+059.mp4,trimming or shaving beard,1.000000
+060.mp4,laughing,1.000000
+061.mp4,canoeing or kayaking,1.000000
+062.mp4,dunking basketball,1.000000
+063.mp4,capoeira,1.000000
+064.mp4,changing oil,1.000000
+065.mp4,snatch weight lifting,1.000000
+066.mp4,playing trombone,1.000000
+067.mp4,abseiling,1.000000
+068.mp4,playing trombone,1.000000
+069.mp4,javelin throw,1.000000
+070.mp4,snatch weight lifting,1.000000
+071.mp4,playing keyboard,1.000000
+072.mp4,plastering,1.000000
+073.mp4,sign language interpreting,1.000000
+074.mp4,abseiling,1.000000
+075.mp4,pole vault,1.000000
+076.mp4,hurdling,1.000000
+077.mp4,spray painting,1.000000
+078.mp4,unloading truck,1.000000
+079.mp4,changing wheel,1.000000
+080.mp4,squat,1.000000
+081.mp4,tango dancing,1.000000
+082.mp4,dunking basketball,1.000000
+083.mp4,dunking basketball,1.000000
+084.mp4,dancing macarena,1.000000
+085.mp4,unloading truck,1.000000
+086.mp4,frying vegetables,1.000000
+087.mp4,trimming or shaving beard,1.000000
+088.mp4,snorkeling,1.000000
+089.mp4,playing badminton,1.000000
+090.mp4,skateboarding,1.000000
+091.mp4,feeding goats,1.000000
+092.mp4,baby waking up,1.000000
+093.mp4,squat,1.000000
+094.mp4,making snowman,1.000000
+095.mp4,pole vault,0.999641
+096.mp4,capoeira,1.000000
+097.mp4,playing didgeridoo,1.000000
+098.mp4,abseiling,1.000000
+099.mp4,capoeira,1.000000
+100.mp4,feeding goats,1.000000
+1000.mp4,canoeing or kayaking,1.000000
+101.mp4,skateboarding,1.000000
+102.mp4,playing badminton,1.000000
+103.mp4,dancing ballet,1.000000
+104.mp4,doing nails,1.000000
+105.mp4,squat,1.000000
+106.mp4,skateboarding,1.000000
+107.mp4,riding mountain bike,1.000000
+108.mp4,baby waking up,1.000000
+109.mp4,shuffling cards,1.000000
+110.mp4,squat,1.000000
+111.mp4,riding elephant,1.000000
+112.mp4,baby waking up,1.000000
+113.mp4,riding elephant,1.000000
+114.mp4,balloon blowing,1.000000
+115.mp4,spray painting,1.000000
+116.mp4,changing wheel,1.000000
+117.mp4,dunking basketball,1.000000
+118.mp4,making snowman,1.000000
+119.mp4,unloading truck,1.000000
+120.mp4,shuffling cards,1.000000
+121.mp4,pumping fist,1.000000
+122.mp4,bench pressing,1.000000
+123.mp4,pushing wheelchair,1.000000
+124.mp4,canoeing or kayaking,1.000000
+125.mp4,fixing hair,1.000000
+126.mp4,sharpening knives,1.000000
+127.mp4,pole vault,1.000000
+128.mp4,playing trombone,1.000000
+129.mp4,riding elephant,1.000000
+130.mp4,capoeira,1.000000
+131.mp4,applauding,1.000000
+132.mp4,playing trombone,1.000000
+133.mp4,laying bricks,1.000000
+134.mp4,dancing ballet,1.000000
+135.mp4,canoeing or kayaking,1.000000
+136.mp4,snatch weight lifting,1.000000
+137.mp4,spray painting,1.000000
+138.mp4,playing badminton,1.000000
+139.mp4,blasting sand,1.000000
+140.mp4,snorkeling,1.000000
+141.mp4,plastering,1.000000
+142.mp4,laughing,1.000000
+143.mp4,playing trombone,1.000000
+144.mp4,skateboarding,1.000000
+145.mp4,tying bow tie,1.000000
+146.mp4,squat,1.000000
+147.mp4,waiting in line,1.000000
+148.mp4,waiting in line,1.000000
+149.mp4,riding mountain bike,1.000000
+150.mp4,feeding goats,1.000000
+151.mp4,jogging,1.000000
+152.mp4,making snowman,1.000000
+153.mp4,applying cream,1.000000
+154.mp4,playing badminton,1.000000
+155.mp4,dancing ballet,1.000000
+156.mp4,bandaging,1.000000
+157.mp4,making snowman,1.000000
+158.mp4,pumping fist,1.000000
+159.mp4,playing trombone,1.000000
+160.mp4,doing nails,1.000000
+161.mp4,dancing charleston,1.000000
+162.mp4,playing badminton,1.000000
+163.mp4,cooking on campfire,1.000000
+164.mp4,balloon blowing,1.000000
+165.mp4,trimming or shaving beard,1.000000
+166.mp4,riding mountain bike,1.000000
+167.mp4,snatch weight lifting,1.000000
+168.mp4,balloon blowing,1.000000
+169.mp4,ripping paper,1.000000
+170.mp4,dancing charleston,1.000000
+171.mp4,shuffling cards,1.000000
+172.mp4,squat,1.000000
+173.mp4,riding unicycle,1.000000
+174.mp4,driving car,1.000000
+175.mp4,javelin throw,1.000000
+176.mp4,feeding goats,1.000000
+177.mp4,spray painting,1.000000
+178.mp4,canoeing or kayaking,1.000000
+179.mp4,plastering,1.000000
+180.mp4,pole vault,1.000000
+181.mp4,doing nails,1.000000
+182.mp4,playing chess,1.000000
+183.mp4,bench pressing,1.000000
+184.mp4,playing didgeridoo,1.000000
+185.mp4,dancing charleston,1.000000
+186.mp4,playing keyboard,1.000000
+187.mp4,abseiling,1.000000
+188.mp4,capoeira,1.000000
+189.mp4,snatch weight lifting,1.000000
+190.mp4,bench pressing,1.000000
+191.mp4,balloon blowing,1.000000
+192.mp4,laughing,1.000000
+193.mp4,capoeira,1.000000
+194.mp4,feeding goats,1.000000
+195.mp4,capoeira,1.000000
+196.mp4,spray painting,1.000000
+197.mp4,javelin throw,1.000000
+198.mp4,bandaging,1.000000
+199.mp4,baby waking up,1.000000
+200.mp4,pole vault,1.000000
+201.mp4,bench pressing,1.000000
+202.mp4,blasting sand,1.000000
+203.mp4,bench pressing,1.000000
+204.mp4,vault,1.000000
+205.mp4,playing chess,1.000000
+206.mp4,bandaging,1.000000
+207.mp4,changing wheel,1.000000
+208.mp4,bench pressing,1.000000
+209.mp4,skateboarding,1.000000
+210.mp4,bandaging,1.000000
+211.mp4,bandaging,1.000000
+212.mp4,laying bricks,1.000000
+213.mp4,abseiling,1.000000
+214.mp4,dunking basketball,1.000000
+215.mp4,balloon blowing,1.000000
+216.mp4,playing badminton,1.000000
+217.mp4,spray painting,1.000000
+218.mp4,shuffling cards,1.000000
+219.mp4,dancing ballet,1.000000
+220.mp4,tying bow tie,1.000000
+221.mp4,bench pressing,1.000000
+222.mp4,moving furniture,1.000000
+223.mp4,playing trombone,1.000000
+224.mp4,juggling soccer ball,1.000000
+225.mp4,capoeira,1.000000
+226.mp4,laughing,1.000000
+227.mp4,snorkeling,1.000000
+228.mp4,dancing charleston,1.000000
+229.mp4,dancing macarena,1.000000
+230.mp4,squat,1.000000
+231.mp4,bench pressing,1.000000
+232.mp4,squat,1.000000
+233.mp4,swinging legs,1.000000
+234.mp4,dancing ballet,1.000000
+235.mp4,canoeing or kayaking,1.000000
+236.mp4,frying vegetables,1.000000
+237.mp4,spray painting,1.000000
+238.mp4,waiting in line,1.000000
+239.mp4,tango dancing,1.000000
+240.mp4,hurdling,1.000000
+241.mp4,bench pressing,1.000000
+242.mp4,riding mountain bike,1.000000
+243.mp4,vault,1.000000
+244.mp4,abseiling,1.000000
+245.mp4,making snowman,1.000000
+246.mp4,waiting in line,1.000000
+247.mp4,playing keyboard,1.000000
+248.mp4,squat,1.000000
+249.mp4,swinging legs,1.000000
+250.mp4,pole vault,1.000000
+251.mp4,feeding goats,1.000000
+252.mp4,skateboarding,1.000000
+253.mp4,playing badminton,1.000000
+254.mp4,riding unicycle,1.000000
+255.mp4,snorkeling,1.000000
+256.mp4,changing oil,1.000000
+257.mp4,canoeing or kayaking,1.000000
+258.mp4,riding unicycle,1.000000
+259.mp4,lunge,1.000000
+260.mp4,tango dancing,1.000000
+261.mp4,canoeing or kayaking,1.000000
+262.mp4,canoeing or kayaking,1.000000
+263.mp4,sharpening knives,1.000000
+264.mp4,pole vault,1.000000
+265.mp4,trimming or shaving beard,1.000000
+266.mp4,abseiling,1.000000
+267.mp4,balloon blowing,1.000000
+268.mp4,snatch weight lifting,1.000000
+269.mp4,waiting in line,1.000000
+270.mp4,driving car,1.000000
+271.mp4,canoeing or kayaking,1.000000
+272.mp4,laughing,1.000000
+273.mp4,playing badminton,1.000000
+274.mp4,moving furniture,1.000000
+275.mp4,riding elephant,1.000000
+276.mp4,applying cream,1.000000
+277.mp4,feeding goats,1.000000
+278.mp4,dunking basketball,1.000000
+279.mp4,tango dancing,1.000000
+280.mp4,playing didgeridoo,1.000000
+281.mp4,sharpening knives,1.000000
+282.mp4,doing nails,1.000000
+283.mp4,fixing hair,1.000000
+284.mp4,balloon blowing,1.000000
+285.mp4,balloon blowing,1.000000
+286.mp4,balloon blowing,1.000000
+287.mp4,dancing charleston,1.000000
+288.mp4,baby waking up,1.000000
+289.mp4,feeding goats,1.000000
+290.mp4,making snowman,1.000000
+291.mp4,doing nails,1.000000
+292.mp4,playing chess,1.000000
+293.mp4,baby waking up,1.000000
+294.mp4,tango dancing,1.000000
+295.mp4,riding unicycle,1.000000
+296.mp4,playing badminton,1.000000
+297.mp4,doing nails,1.000000
+298.mp4,dancing macarena,1.000000
+299.mp4,laying bricks,1.000000
+300.mp4,sign language interpreting,1.000000
+301.mp4,pumping fist,0.999911
+302.mp4,laughing,1.000000
+303.mp4,sharpening knives,1.000000
+304.mp4,hurdling,1.000000
+305.mp4,snatch weight lifting,1.000000
+306.mp4,dancing ballet,1.000000
+307.mp4,snorkeling,1.000000
+308.mp4,hurdling,1.000000
+309.mp4,capoeira,1.000000
+310.mp4,frying vegetables,1.000000
+311.mp4,pole vault,1.000000
+312.mp4,spray painting,1.000000
+313.mp4,vault,1.000000
+314.mp4,feeding goats,1.000000
+315.mp4,playing didgeridoo,1.000000
+316.mp4,playing badminton,1.000000
+317.mp4,dancing ballet,1.000000
+318.mp4,bench pressing,1.000000
+319.mp4,dancing ballet,1.000000
+320.mp4,tango dancing,1.000000
+321.mp4,playing didgeridoo,1.000000
+322.mp4,shuffling cards,1.000000
+323.mp4,dancing macarena,1.000000
+324.mp4,waiting in line,1.000000
+325.mp4,lunge,1.000000
+326.mp4,doing nails,1.000000
+327.mp4,applying cream,1.000000
+328.mp4,playing trombone,1.000000
+329.mp4,squat,1.000000
+330.mp4,baby waking up,1.000000
+331.mp4,playing trombone,1.000000
+332.mp4,feeding goats,1.000000
+333.mp4,vault,1.000000
+334.mp4,playing badminton,1.000000
+335.mp4,lunge,1.000000
+336.mp4,trimming or shaving beard,1.000000
+337.mp4,trimming or shaving beard,1.000000
+338.mp4,trimming or shaving beard,1.000000
+339.mp4,pole vault,1.000000
+340.mp4,changing oil,1.000000
+341.mp4,frying vegetables,1.000000
+342.mp4,canoeing or kayaking,1.000000
+343.mp4,doing nails,1.000000
+344.mp4,driving car,1.000000
+345.mp4,capoeira,1.000000
+346.mp4,snorkeling,1.000000
+347.mp4,playing chess,1.000000
+348.mp4,abseiling,1.000000
+349.mp4,dancing ballet,1.000000
+350.mp4,applauding,1.000000
+351.mp4,feeding goats,1.000000
+352.mp4,spray painting,1.000000
+353.mp4,playing chess,1.000000
+354.mp4,pole vault,1.000000
+355.mp4,skateboarding,1.000000
+356.mp4,playing xylophone,1.000000
+357.mp4,balloon blowing,1.000000
+358.mp4,pole vault,1.000000
+359.mp4,playing badminton,1.000000
+360.mp4,playing didgeridoo,1.000000
+361.mp4,lunge,1.000000
+362.mp4,driving car,1.000000
+363.mp4,playing trombone,1.000000
+364.mp4,javelin throw,1.000000
+365.mp4,hurdling,1.000000
+366.mp4,lunge,1.000000
+367.mp4,javelin throw,1.000000
+368.mp4,tying bow tie,1.000000
+369.mp4,fixing hair,1.000000
+370.mp4,snatch weight lifting,1.000000
+371.mp4,cooking on campfire,1.000000
+372.mp4,riding elephant,1.000000
+373.mp4,hurdling,1.000000
+374.mp4,balloon blowing,1.000000
+375.mp4,playing xylophone,1.000000
+376.mp4,capoeira,1.000000
+377.mp4,making snowman,1.000000
+378.mp4,moving furniture,1.000000
+379.mp4,vault,1.000000
+380.mp4,bench pressing,1.000000
+381.mp4,dancing macarena,1.000000
+382.mp4,playing xylophone,1.000000
+383.mp4,abseiling,1.000000
+384.mp4,doing nails,1.000000
+385.mp4,fixing hair,1.000000
+386.mp4,shuffling cards,1.000000
+387.mp4,javelin throw,1.000000
+388.mp4,capoeira,1.000000
+389.mp4,capoeira,1.000000
+390.mp4,playing keyboard,1.000000
+391.mp4,feeding goats,1.000000
+392.mp4,feeding goats,1.000000
+393.mp4,juggling soccer ball,1.000000
+394.mp4,snatch weight lifting,1.000000
+395.mp4,dunking basketball,1.000000
+396.mp4,javelin throw,1.000000
+397.mp4,abseiling,1.000000
+398.mp4,bandaging,1.000000
+399.mp4,applauding,1.000000
+400.mp4,baby waking up,1.000000
+401.mp4,trimming or shaving beard,1.000000
+402.mp4,fixing hair,1.000000
+403.mp4,trimming or shaving beard,1.000000
+404.mp4,playing trombone,1.000000
+405.mp4,laughing,1.000000
+406.mp4,playing xylophone,1.000000
+407.mp4,snorkeling,1.000000
+408.mp4,abseiling,1.000000
+409.mp4,bench pressing,1.000000
+410.mp4,capoeira,1.000000
+411.mp4,canoeing or kayaking,1.000000
+412.mp4,playing keyboard,1.000000
+413.mp4,laying bricks,1.000000
+414.mp4,riding unicycle,1.000000
+415.mp4,dunking basketball,1.000000
+416.mp4,fixing hair,1.000000
+417.mp4,feeding goats,1.000000
+418.mp4,frying vegetables,1.000000
+419.mp4,baby waking up,1.000000
+420.mp4,canoeing or kayaking,1.000000
+421.mp4,abseiling,1.000000
+422.mp4,javelin throw,1.000000
+423.mp4,javelin throw,1.000000
+424.mp4,swinging legs,1.000000
+425.mp4,dunking basketball,1.000000
+426.mp4,bench pressing,1.000000
+427.mp4,riding mountain bike,1.000000
+428.mp4,snatch weight lifting,1.000000
+429.mp4,playing xylophone,1.000000
+430.mp4,bench pressing,1.000000
+431.mp4,sharpening knives,1.000000
+432.mp4,feeding goats,1.000000
+433.mp4,laughing,1.000000
+434.mp4,snatch weight lifting,1.000000
+435.mp4,laughing,1.000000
+436.mp4,pumping fist,1.000000
+437.mp4,pole vault,0.993710
+438.mp4,tango dancing,1.000000
+439.mp4,squat,1.000000
+440.mp4,playing keyboard,1.000000
+441.mp4,doing nails,1.000000
+442.mp4,sharpening knives,1.000000
+443.mp4,capoeira,1.000000
+444.mp4,moving furniture,1.000000
+445.mp4,vault,1.000000
+446.mp4,dancing ballet,1.000000
+447.mp4,bench pressing,1.000000
+448.mp4,balloon blowing,1.000000
+449.mp4,playing trombone,1.000000
+450.mp4,blasting sand,1.000000
+451.mp4,playing didgeridoo,1.000000
+452.mp4,bandaging,1.000000
+453.mp4,dunking basketball,1.000000
+454.mp4,vault,1.000000
+455.mp4,abseiling,1.000000
+456.mp4,shuffling cards,1.000000
+457.mp4,fixing hair,1.000000
+458.mp4,laughing,1.000000
+459.mp4,dancing macarena,1.000000
+460.mp4,riding unicycle,1.000000
+461.mp4,frying vegetables,1.000000
+462.mp4,playing xylophone,1.000000
+463.mp4,hurdling,1.000000
+464.mp4,vault,1.000000
+465.mp4,tango dancing,1.000000
+466.mp4,blasting sand,1.000000
+467.mp4,dunking basketball,1.000000
+468.mp4,playing badminton,1.000000
+469.mp4,dancing ballet,1.000000
+470.mp4,abseiling,1.000000
+471.mp4,skateboarding,1.000000
+472.mp4,bench pressing,1.000000
+473.mp4,baby waking up,1.000000
+474.mp4,baby waking up,1.000000
+475.mp4,tango dancing,1.000000
+476.mp4,playing xylophone,1.000000
+477.mp4,vault,1.000000
+478.mp4,vault,1.000000
+479.mp4,dancing macarena,1.000000
+480.mp4,spray painting,1.000000
+481.mp4,snorkeling,1.000000
+482.mp4,changing wheel,1.000000
+483.mp4,snatch weight lifting,1.000000
+484.mp4,laughing,1.000000
+485.mp4,feeding goats,1.000000
+486.mp4,playing trombone,1.000000
+487.mp4,riding mountain bike,1.000000
+488.mp4,changing oil,1.000000
+489.mp4,trimming or shaving beard,1.000000
+490.mp4,doing nails,1.000000
+491.mp4,cooking on campfire,1.000000
+492.mp4,moving furniture,1.000000
+493.mp4,snatch weight lifting,1.000000
+494.mp4,ripping paper,1.000000
+495.mp4,baby waking up,1.000000
+496.mp4,playing xylophone,1.000000
+497.mp4,snatch weight lifting,1.000000
+498.mp4,playing trombone,1.000000
+499.mp4,capoeira,1.000000
+500.mp4,playing trombone,1.000000
+501.mp4,snorkeling,1.000000
+502.mp4,dancing macarena,1.000000
+503.mp4,laughing,1.000000
+504.mp4,cooking on campfire,1.000000
+505.mp4,blasting sand,1.000000
+506.mp4,playing keyboard,1.000000
+507.mp4,ripping paper,1.000000
+508.mp4,javelin throw,1.000000
+509.mp4,canoeing or kayaking,1.000000
+510.mp4,snatch weight lifting,1.000000
+511.mp4,playing xylophone,1.000000
+512.mp4,lunge,1.000000
+513.mp4,dancing ballet,1.000000
+514.mp4,riding elephant,1.000000
+515.mp4,skateboarding,1.000000
+516.mp4,hurdling,1.000000
+517.mp4,dunking basketball,1.000000
+518.mp4,changing oil,1.000000
+519.mp4,playing xylophone,1.000000
+520.mp4,changing oil,1.000000
+521.mp4,dunking basketball,1.000000
+522.mp4,dancing macarena,1.000000
+523.mp4,unloading truck,1.000000
+524.mp4,blasting sand,1.000000
+525.mp4,riding elephant,1.000000
+526.mp4,trimming or shaving beard,1.000000
+527.mp4,squat,1.000000
+528.mp4,pumping fist,1.000000
+529.mp4,dancing macarena,1.000000
+530.mp4,capoeira,1.000000
+531.mp4,snatch weight lifting,1.000000
+532.mp4,applauding,1.000000
+533.mp4,bandaging,1.000000
+534.mp4,playing xylophone,1.000000
+535.mp4,vault,1.000000
+536.mp4,hurdling,1.000000
+537.mp4,canoeing or kayaking,1.000000
+538.mp4,trimming or shaving beard,1.000000
+539.mp4,dancing macarena,1.000000
+540.mp4,moving furniture,1.000000
+541.mp4,bench pressing,1.000000
+542.mp4,making snowman,1.000000
+543.mp4,playing keyboard,1.000000
+544.mp4,driving car,1.000000
+545.mp4,riding elephant,1.000000
+546.mp4,bench pressing,1.000000
+547.mp4,laughing,1.000000
+548.mp4,bench pressing,1.000000
+549.mp4,making snowman,1.000000
+550.mp4,pole vault,1.000000
+551.mp4,playing trombone,1.000000
+552.mp4,squat,1.000000
+553.mp4,changing wheel,1.000000
+554.mp4,tango dancing,1.000000
+555.mp4,canoeing or kayaking,1.000000
+556.mp4,plastering,1.000000
+557.mp4,changing oil,1.000000
+558.mp4,spray painting,1.000000
+559.mp4,making snowman,1.000000
+560.mp4,capoeira,1.000000
+561.mp4,playing didgeridoo,1.000000
+562.mp4,balloon blowing,1.000000
+563.mp4,dancing charleston,1.000000
+564.mp4,spray painting,1.000000
+565.mp4,riding unicycle,1.000000
+566.mp4,dancing macarena,1.000000
+567.mp4,lunge,1.000000
+568.mp4,dancing ballet,1.000000
+569.mp4,spray painting,1.000000
+570.mp4,riding mountain bike,1.000000
+571.mp4,trimming or shaving beard,1.000000
+572.mp4,sign language interpreting,1.000000
+573.mp4,balloon blowing,1.000000
+574.mp4,dunking basketball,1.000000
+575.mp4,baby waking up,1.000000
+576.mp4,dunking basketball,1.000000
+577.mp4,playing chess,1.000000
+578.mp4,dancing macarena,1.000000
+579.mp4,javelin throw,1.000000
+580.mp4,snatch weight lifting,1.000000
+581.mp4,canoeing or kayaking,1.000000
+582.mp4,abseiling,1.000000
+583.mp4,hurdling,1.000000
+584.mp4,dunking basketball,1.000000
+585.mp4,riding elephant,1.000000
+586.mp4,playing didgeridoo,1.000000
+587.mp4,snorkeling,1.000000
+588.mp4,driving car,1.000000
+589.mp4,changing oil,1.000000
+590.mp4,capoeira,1.000000
+591.mp4,skateboarding,1.000000
+592.mp4,playing chess,1.000000
+593.mp4,applying cream,1.000000
+594.mp4,skateboarding,1.000000
+595.mp4,sharpening knives,1.000000
+596.mp4,riding elephant,1.000000
+597.mp4,feeding goats,1.000000
+598.mp4,balloon blowing,1.000000
+599.mp4,applying cream,1.000000
+600.mp4,spray painting,1.000000
+601.mp4,capoeira,1.000000
+602.mp4,lunge,1.000000
+603.mp4,dunking basketball,1.000000
+604.mp4,laughing,1.000000
+605.mp4,dancing charleston,1.000000
+606.mp4,blasting sand,1.000000
+607.mp4,playing badminton,1.000000
+608.mp4,squat,1.000000
+609.mp4,applying cream,1.000000
+610.mp4,doing nails,1.000000
+611.mp4,dancing macarena,1.000000
+612.mp4,riding elephant,1.000000
+613.mp4,doing nails,1.000000
+614.mp4,playing xylophone,1.000000
+615.mp4,blasting sand,1.000000
+616.mp4,javelin throw,1.000000
+617.mp4,feeding goats,1.000000
+618.mp4,doing nails,1.000000
+619.mp4,jogging,1.000000
+620.mp4,juggling soccer ball,1.000000
+621.mp4,plastering,1.000000
+622.mp4,snatch weight lifting,1.000000
+623.mp4,playing trombone,1.000000
+624.mp4,shuffling cards,1.000000
+625.mp4,frying vegetables,1.000000
+626.mp4,driving car,1.000000
+627.mp4,dunking basketball,1.000000
+628.mp4,driving car,1.000000
+629.mp4,driving car,1.000000
+630.mp4,riding elephant,1.000000
+631.mp4,dunking basketball,1.000000
+632.mp4,tango dancing,1.000000
+633.mp4,tango dancing,1.000000
+634.mp4,skateboarding,1.000000
+635.mp4,snatch weight lifting,1.000000
+636.mp4,riding elephant,1.000000
+637.mp4,bench pressing,1.000000
+638.mp4,spray painting,1.000000
+639.mp4,baby waking up,1.000000
+640.mp4,snorkeling,1.000000
+641.mp4,skateboarding,1.000000
+642.mp4,dancing charleston,1.000000
+643.mp4,dancing macarena,1.000000
+644.mp4,driving car,1.000000
+645.mp4,playing badminton,1.000000
+646.mp4,jogging,1.000000
+647.mp4,laughing,1.000000
+648.mp4,swinging legs,1.000000
+649.mp4,swinging legs,1.000000
+650.mp4,playing xylophone,1.000000
+651.mp4,canoeing or kayaking,1.000000
+652.mp4,canoeing or kayaking,1.000000
+653.mp4,driving car,1.000000
+654.mp4,riding unicycle,1.000000
+655.mp4,playing xylophone,1.000000
+656.mp4,spray painting,1.000000
+657.mp4,playing didgeridoo,1.000000
+658.mp4,feeding goats,1.000000
+659.mp4,changing wheel,1.000000
+660.mp4,blasting sand,1.000000
+661.mp4,skateboarding,1.000000
+662.mp4,playing trombone,1.000000
+663.mp4,squat,1.000000
+664.mp4,bench pressing,1.000000
+665.mp4,playing chess,1.000000
+666.mp4,driving car,1.000000
+667.mp4,feeding goats,1.000000
+668.mp4,abseiling,1.000000
+669.mp4,playing keyboard,1.000000
+670.mp4,sign language interpreting,1.000000
+671.mp4,playing chess,1.000000
+672.mp4,capoeira,1.000000
+673.mp4,dancing charleston,1.000000
+674.mp4,feeding goats,1.000000
+675.mp4,doing nails,1.000000
+676.mp4,dunking basketball,1.000000
+677.mp4,playing xylophone,1.000000
+678.mp4,lunge,1.000000
+679.mp4,lunge,1.000000
+680.mp4,dancing ballet,1.000000
+681.mp4,capoeira,1.000000
+682.mp4,dunking basketball,1.000000
+683.mp4,snorkeling,1.000000
+684.mp4,laying bricks,1.000000
+685.mp4,playing keyboard,1.000000
+686.mp4,abseiling,1.000000
+687.mp4,snorkeling,1.000000
+688.mp4,hurdling,1.000000
+689.mp4,canoeing or kayaking,1.000000
+690.mp4,bandaging,1.000000
+691.mp4,squat,1.000000
+692.mp4,riding unicycle,1.000000
+693.mp4,laying bricks,1.000000
+694.mp4,snorkeling,1.000000
+695.mp4,blasting sand,1.000000
+696.mp4,juggling soccer ball,1.000000
+697.mp4,bench pressing,1.000000
+698.mp4,dancing charleston,1.000000
+699.mp4,playing badminton,1.000000
+700.mp4,dancing ballet,1.000000
+701.mp4,shuffling cards,1.000000
+702.mp4,squat,1.000000
+703.mp4,playing trombone,1.000000
+704.mp4,trimming or shaving beard,1.000000
+705.mp4,pole vault,0.999974
+706.mp4,playing chess,1.000000
+707.mp4,dancing ballet,1.000000
+708.mp4,laughing,1.000000
+709.mp4,spray painting,1.000000
+710.mp4,balloon blowing,1.000000
+711.mp4,tango dancing,1.000000
+712.mp4,snorkeling,1.000000
+713.mp4,feeding goats,1.000000
+714.mp4,dancing macarena,1.000000
+715.mp4,unloading truck,1.000000
+716.mp4,pumping fist,1.000000
+717.mp4,laying bricks,1.000000
+718.mp4,riding unicycle,1.000000
+719.mp4,applying cream,1.000000
+720.mp4,trimming or shaving beard,1.000000
+721.mp4,snorkeling,1.000000
+722.mp4,riding unicycle,1.000000
+723.mp4,sharpening knives,1.000000
+724.mp4,playing didgeridoo,1.000000
+725.mp4,changing oil,1.000000
+726.mp4,capoeira,1.000000
+727.mp4,capoeira,1.000000
+728.mp4,spray painting,1.000000
+729.mp4,riding elephant,1.000000
+730.mp4,jogging,1.000000
+731.mp4,dunking basketball,1.000000
+732.mp4,waiting in line,1.000000
+733.mp4,snorkeling,1.000000
+734.mp4,javelin throw,1.000000
+735.mp4,doing nails,1.000000
+736.mp4,playing keyboard,1.000000
+737.mp4,making snowman,1.000000
+738.mp4,tying bow tie,1.000000
+739.mp4,riding elephant,1.000000
+740.mp4,playing xylophone,1.000000
+741.mp4,vault,1.000000
+742.mp4,playing badminton,1.000000
+743.mp4,applying cream,1.000000
+744.mp4,abseiling,1.000000
+745.mp4,snatch weight lifting,1.000000
+746.mp4,bandaging,1.000000
+747.mp4,dancing macarena,1.000000
+748.mp4,tango dancing,1.000000
+749.mp4,playing chess,1.000000
+750.mp4,dancing ballet,1.000000
+751.mp4,dancing charleston,1.000000
+752.mp4,playing didgeridoo,1.000000
+753.mp4,ripping paper,1.000000
+754.mp4,pumping fist,1.000000
+755.mp4,capoeira,1.000000
+756.mp4,making snowman,1.000000
+757.mp4,swinging legs,1.000000
+758.mp4,doing nails,1.000000
+759.mp4,laying bricks,1.000000
+760.mp4,playing chess,1.000000
+761.mp4,tango dancing,1.000000
+762.mp4,dunking basketball,1.000000
+763.mp4,playing trombone,1.000000
+764.mp4,unloading truck,1.000000
+765.mp4,fixing hair,1.000000
+766.mp4,changing oil,1.000000
+767.mp4,trimming or shaving beard,1.000000
+768.mp4,javelin throw,1.000000
+769.mp4,fixing hair,1.000000
+770.mp4,frying vegetables,1.000000
+771.mp4,pole vault,1.000000
+772.mp4,making snowman,1.000000
+773.mp4,riding elephant,1.000000
+774.mp4,making snowman,1.000000
+775.mp4,jogging,1.000000
+776.mp4,laying bricks,1.000000
+777.mp4,hurdling,1.000000
+778.mp4,riding unicycle,1.000000
+779.mp4,lunge,1.000000
+780.mp4,driving car,1.000000
+781.mp4,shuffling cards,1.000000
+782.mp4,laughing,1.000000
+783.mp4,riding mountain bike,1.000000
+784.mp4,hurdling,1.000000
+785.mp4,playing trombone,1.000000
+786.mp4,pumping fist,1.000000
+787.mp4,playing chess,1.000000
+788.mp4,abseiling,1.000000
+789.mp4,snorkeling,1.000000
+790.mp4,javelin throw,1.000000
+791.mp4,sharpening knives,1.000000
+792.mp4,snorkeling,1.000000
+793.mp4,lunge,1.000000
+794.mp4,laughing,1.000000
+795.mp4,trimming or shaving beard,1.000000
+796.mp4,sharpening knives,1.000000
+797.mp4,canoeing or kayaking,1.000000
+798.mp4,riding elephant,1.000000
+799.mp4,trimming or shaving beard,1.000000
+800.mp4,skateboarding,1.000000
+801.mp4,canoeing or kayaking,1.000000
+802.mp4,pushing wheelchair,1.000000
+803.mp4,playing badminton,1.000000
+804.mp4,bench pressing,1.000000
+805.mp4,laughing,1.000000
+806.mp4,playing keyboard,1.000000
+807.mp4,skateboarding,1.000000
+808.mp4,bandaging,1.000000
+809.mp4,playing keyboard,1.000000
+810.mp4,trimming or shaving beard,1.000000
+811.mp4,dancing macarena,1.000000
+812.mp4,abseiling,1.000000
+813.mp4,pushing wheelchair,1.000000
+814.mp4,playing trombone,1.000000
+815.mp4,abseiling,1.000000
+816.mp4,snorkeling,1.000000
+817.mp4,trimming or shaving beard,1.000000
+818.mp4,making snowman,1.000000
+819.mp4,skateboarding,1.000000
+820.mp4,snatch weight lifting,1.000000
+821.mp4,dunking basketball,1.000000
+822.mp4,bandaging,1.000000
+823.mp4,changing oil,1.000000
+824.mp4,pushing wheelchair,1.000000
+825.mp4,playing trombone,1.000000
+826.mp4,driving car,1.000000
+827.mp4,bench pressing,1.000000
+828.mp4,applauding,1.000000
+829.mp4,tango dancing,1.000000
+830.mp4,skateboarding,1.000000
+831.mp4,capoeira,1.000000
+832.mp4,lunge,1.000000
+833.mp4,snorkeling,1.000000
+834.mp4,laughing,1.000000
+835.mp4,bandaging,1.000000
+836.mp4,capoeira,1.000000
+837.mp4,trimming or shaving beard,1.000000
+838.mp4,tying bow tie,1.000000
+839.mp4,shuffling cards,1.000000
+840.mp4,playing badminton,1.000000
+841.mp4,moving furniture,1.000000
+842.mp4,spray painting,1.000000
+843.mp4,spray painting,1.000000
+844.mp4,swinging legs,1.000000
+845.mp4,fixing hair,1.000000
+846.mp4,abseiling,1.000000
+847.mp4,pole vault,1.000000
+848.mp4,applauding,1.000000
+849.mp4,tango dancing,1.000000
+850.mp4,dancing ballet,1.000000
+851.mp4,shuffling cards,1.000000
+852.mp4,riding elephant,1.000000
+853.mp4,making snowman,1.000000
+854.mp4,pumping fist,1.000000
+855.mp4,tango dancing,1.000000
+856.mp4,feeding goats,1.000000
+857.mp4,laughing,1.000000
+858.mp4,feeding goats,1.000000
+859.mp4,dancing ballet,1.000000
+860.mp4,playing badminton,1.000000
+861.mp4,applying cream,1.000000
+862.mp4,playing trombone,1.000000
+863.mp4,playing trombone,1.000000
+864.mp4,dancing ballet,1.000000
+865.mp4,canoeing or kayaking,1.000000
+866.mp4,abseiling,1.000000
+867.mp4,skateboarding,1.000000
+868.mp4,tango dancing,1.000000
+869.mp4,riding elephant,1.000000
+870.mp4,lunge,1.000000
+871.mp4,pumping fist,1.000000
+872.mp4,making snowman,1.000000
+873.mp4,tango dancing,1.000000
+874.mp4,lunge,1.000000
+875.mp4,dancing macarena,1.000000
+876.mp4,playing badminton,1.000000
+877.mp4,laying bricks,1.000000
+878.mp4,riding elephant,1.000000
+879.mp4,riding unicycle,1.000000
+880.mp4,dancing ballet,1.000000
+881.mp4,skateboarding,1.000000
+882.mp4,squat,1.000000
+883.mp4,vault,1.000000
+884.mp4,changing wheel,1.000000
+885.mp4,sign language interpreting,1.000000
+886.mp4,driving car,1.000000
+887.mp4,applauding,1.000000
+888.mp4,skateboarding,1.000000
+889.mp4,playing badminton,1.000000
+890.mp4,pole vault,1.000000
+891.mp4,jogging,1.000000
+892.mp4,trimming or shaving beard,1.000000
+893.mp4,ripping paper,1.000000
+894.mp4,abseiling,1.000000
+895.mp4,dancing ballet,1.000000
+896.mp4,dunking basketball,1.000000
+897.mp4,lunge,1.000000
+898.mp4,spray painting,1.000000
+899.mp4,hurdling,1.000000
+900.mp4,dancing ballet,1.000000
+901.mp4,dancing ballet,1.000000
+902.mp4,playing didgeridoo,1.000000
+903.mp4,ripping paper,1.000000
+904.mp4,changing wheel,1.000000
+905.mp4,spray painting,1.000000
+906.mp4,blasting sand,1.000000
+907.mp4,blasting sand,1.000000
+908.mp4,skateboarding,1.000000
+909.mp4,squat,1.000000
+910.mp4,riding elephant,1.000000
+911.mp4,jogging,1.000000
+912.mp4,playing trombone,1.000000
+913.mp4,jogging,1.000000
+914.mp4,snorkeling,1.000000
+915.mp4,driving car,1.000000
+916.mp4,pushing wheelchair,1.000000
+917.mp4,bench pressing,1.000000
+918.mp4,javelin throw,1.000000
+919.mp4,juggling soccer ball,1.000000
+920.mp4,driving car,1.000000
+921.mp4,snorkeling,1.000000
+922.mp4,cooking on campfire,1.000000
+923.mp4,bench pressing,1.000000
+924.mp4,dancing ballet,1.000000
+925.mp4,playing didgeridoo,1.000000
+926.mp4,frying vegetables,1.000000
+927.mp4,lunge,1.000000
+928.mp4,driving car,1.000000
+929.mp4,playing trombone,1.000000
+930.mp4,fixing hair,1.000000
+931.mp4,abseiling,1.000000
+932.mp4,riding unicycle,1.000000
+933.mp4,dancing macarena,1.000000
+934.mp4,playing keyboard,1.000000
+935.mp4,ripping paper,1.000000
+936.mp4,riding unicycle,1.000000
+937.mp4,dunking basketball,1.000000
+938.mp4,blasting sand,1.000000
+939.mp4,squat,1.000000
+940.mp4,playing didgeridoo,1.000000
+941.mp4,laughing,1.000000
+942.mp4,dunking basketball,1.000000
+943.mp4,playing keyboard,1.000000
+944.mp4,playing didgeridoo,1.000000
+945.mp4,snatch weight lifting,1.000000
+946.mp4,changing wheel,1.000000
+947.mp4,bench pressing,1.000000
+948.mp4,skateboarding,1.000000
+949.mp4,trimming or shaving beard,1.000000
+950.mp4,playing chess,1.000000
+951.mp4,riding elephant,1.000000
+952.mp4,pole vault,1.000000
+953.mp4,tango dancing,1.000000
+954.mp4,ripping paper,1.000000
+955.mp4,riding mountain bike,1.000000
+956.mp4,capoeira,1.000000
+957.mp4,pushing wheelchair,1.000000
+958.mp4,frying vegetables,1.000000
+959.mp4,hurdling,1.000000
+960.mp4,playing badminton,1.000000
+961.mp4,dancing ballet,1.000000
+962.mp4,shuffling cards,1.000000
+963.mp4,doing nails,1.000000
+964.mp4,playing badminton,1.000000
+965.mp4,fixing hair,1.000000
+966.mp4,shuffling cards,1.000000
+967.mp4,riding elephant,1.000000
+968.mp4,dancing macarena,1.000000
+969.mp4,capoeira,1.000000
+970.mp4,juggling soccer ball,1.000000
+971.mp4,riding elephant,1.000000
+972.mp4,pole vault,1.000000
+973.mp4,capoeira,1.000000
+974.mp4,playing chess,1.000000
+975.mp4,riding elephant,1.000000
+976.mp4,playing trombone,1.000000
+977.mp4,feeding goats,1.000000
+978.mp4,frying vegetables,1.000000
+979.mp4,balloon blowing,1.000000
+980.mp4,sign language interpreting,1.000000
+981.mp4,playing xylophone,1.000000
+982.mp4,skateboarding,1.000000
+983.mp4,snorkeling,1.000000
+984.mp4,frying vegetables,1.000000
+985.mp4,pushing wheelchair,1.000000
+986.mp4,riding mountain bike,1.000000
+987.mp4,dancing ballet,1.000000
+988.mp4,squat,1.000000
+989.mp4,driving car,1.000000
+990.mp4,snatch weight lifting,1.000000
+991.mp4,pole vault,0.997562
+992.mp4,snorkeling,1.000000
+993.mp4,fixing hair,1.000000
+994.mp4,bench pressing,1.000000
+995.mp4,playing didgeridoo,1.000000
+996.mp4,playing badminton,1.000000
+997.mp4,making snowman,1.000000
+998.mp4,abseiling,1.000000
+999.mp4,changing oil,1.000000

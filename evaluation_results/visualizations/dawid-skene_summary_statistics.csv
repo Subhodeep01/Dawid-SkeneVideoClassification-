@@ -1,0 +1,14 @@
+Metric,Value
+Overall Accuracy,0.9380 (93.80%)
+Macro Average F1,0.9282 (92.82%)
+Weighted Average F1,0.9366 (93.66%)
+Number of Classes,60
+Classes with F1 ≥ 0.9,46 (76.7%)
+Classes with F1 ≥ 0.7,58 (96.7%)
+Classes with F1 < 0.7,2 (3.3%)
+Best Class (F1),changing oil (1.0000)
+Worst Class (F1),applauding (0.5000)
+Average Precision,0.9314
+Average Recall,0.9374
+Average F1-Score,0.9282
+Total Samples,1000

@@ -1,0 +1,8 @@
+Experiment,Removed_Classifier,Active_Classifiers,Num_Classifiers,Ensemble_Accuracy,Ensemble_Precision,Ensemble_Recall,Ensemble_F1,DS_Accuracy,DS_Precision,DS_Recall,DS_F1,Accuracy_Diff,F1_Diff
+Baseline (All),None,"Gemini, GPT-5-mini, TwelveLabs, GPT-4o-mini, Qwen-VL, Replicate, MoonDream2",7,0.938000,0.932837,0.936018,0.928239,0.938000,0.931412,0.937365,0.928250,0.000000,0.000010
+Remove Top-1,Gemini,"GPT-5-mini, TwelveLabs, GPT-4o-mini, Qwen-VL, Replicate, MoonDream2",6,0.925000,0.920263,0.921960,0.912453,0.924000,0.919076,0.924106,0.913256,-0.001000,0.000803
+Remove Top-2,GPT-5-mini,"TwelveLabs, GPT-4o-mini, Qwen-VL, Replicate, MoonDream2",5,0.875000,0.872462,0.869159,0.854739,0.886000,0.875082,0.878909,0.864482,0.011000,0.009743
+Remove Top-3,TwelveLabs,"GPT-4o-mini, Qwen-VL, Replicate, MoonDream2",4,0.828000,0.842162,0.810944,0.797489,0.842000,0.835687,0.817638,0.805129,0.014000,0.007640
+Remove Gemini,Gemini,"GPT-5-mini, TwelveLabs, GPT-4o-mini, Qwen-VL, Replicate, MoonDream2",6,0.925000,0.920263,0.921960,0.912453,0.924000,0.919076,0.924106,0.913256,-0.001000,0.000803
+Remove GPT-5-mini,GPT-5-mini,"Gemini, TwelveLabs, GPT-4o-mini, Qwen-VL, Replicate, MoonDream2",6,0.926000,0.923877,0.923231,0.916960,0.928000,0.923565,0.930327,0.919613,0.002000,0.002653
+Remove TwelveLabs,TwelveLabs,"Gemini, GPT-5-mini, GPT-4o-mini, Qwen-VL, Replicate, MoonDream2",6,0.933000,0.929251,0.924268,0.919563,0.933000,0.930433,0.928018,0.922116,0.000000,0.002552

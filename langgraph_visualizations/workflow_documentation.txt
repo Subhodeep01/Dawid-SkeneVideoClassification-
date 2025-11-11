@@ -1,0 +1,83 @@
+====================================================================================================
+LANGGRAPH VIDEO CLASSIFICATION WORKFLOW DOCUMENTATION
+====================================================================================================
+
+WORKFLOW OVERVIEW
+----------------------------------------------------------------------------------------------------
+A parallel video classification system using LangGraph orchestration.
+The workflow processes videos through 7 classifiers in parallel, then
+aggregates results using 2 different methods (also in parallel).
+
+STAGES
+----------------------------------------------------------------------------------------------------
+
+Stage 1: Initialization
+  Node: load_videos
+  • Loads video files from sampled_videos/
+  • Reads class labels from metadata.txt
+  • Initializes cache manager
+  • Sets up video batch (start_index to end_index)
+
+Stage 2: Parallel Classification (7 Models)
+  All classifiers run simultaneously:
+  1. Gemini (Google) - 93.6% accuracy
+  2. GPT-5-mini (OpenAI) - 93.3% accuracy
+  3. Twelve Labs - 86.1% accuracy
+  4. GPT-4o-mini (OpenAI) - 84.7% accuracy
+  5. Qwen-VL - 71.8% accuracy
+  6. Replicate (LLaVA-13b) - 64.2% accuracy
+  7. MoonDream2 - 5.8% accuracy
+
+Stage 3: Parallel Aggregation (2 Methods)
+  Both methods run simultaneously:
+  1. Ensemble (Majority Voting)
+     • Simple majority vote across all classifiers
+     • Returns ERROR on ties (no clear majority)
+     • Output: ensemble_predictions.csv
+     • Fast execution
+
+  2. Dawid-Skene (Probabilistic EM Algorithm)
+     • Estimates annotator accuracy matrices
+     • Uses confusion matrices for each classifier
+     • Iterative refinement via Expectation-Maximization
+     • Output: dawid_skene_predictions.csv
+     • Higher accuracy but slower execution
+
+KEY FEATURES
+----------------------------------------------------------------------------------------------------
+• Parallel Execution: Classifiers run simultaneously for speed
+• Caching: Reuses previous predictions when available
+• Flexible Batching: Process any range of videos (start_index to end_index)
+• State Management: GraphState TypedDict tracks all information
+• Error Handling: Graceful failure handling per classifier
+• Dual Aggregation: Compare simple vs sophisticated methods
+
+PERFORMANCE METRICS
+----------------------------------------------------------------------------------------------------
+Dataset: 1000 videos, 60 activity classes
+
+Individual Classifier Accuracy:
+  Best:  Gemini (93.6%)
+  Worst: MoonDream2 (5.8%)
+
+Aggregation Results:
+  Ensemble:     93.60% accuracy
+  Dawid-Skene:  93.80% accuracy (+0.20% improvement)
+
+Execution Time (for 1000 videos):
+  Ensemble:     ~0.15 seconds
+  Dawid-Skene:  ~80 seconds (500x slower, but more accurate)
+
+OUTPUT FILES
+----------------------------------------------------------------------------------------------------
+predictions/
+  • gemini_predictions.csv
+  • gpt-5-mini_predictions.csv
+  • twelvelabs_predictions.csv
+  • gpt4o_predictions.csv
+  • qwen_predictions.csv
+  • replicate_predictions.csv
+  • moondream_predictions.csv
+  • ensemble_predictions.csv
+  • dawid_skene_predictions.csv
+

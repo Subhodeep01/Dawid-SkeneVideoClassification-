@@ -1,0 +1,6 @@
+Classifier,Estimated_Accuracy
+GPT-4o-mini,0.894586
+TwelveLabs,0.884314
+Qwen-VL,0.757106
+Replicate,0.660213
+MoonDream2,0.071063

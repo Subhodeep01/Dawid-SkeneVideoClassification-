@@ -1,0 +1,64 @@
+,precision,recall,f1-score,support
+abseiling,0.04,1.0,0.07692307692307693,24.0
+applauding,0.013100436681222707,0.6,0.02564102564102564,5.0
+applying cream,0.04716981132075472,0.625,0.08771929824561403,8.0
+baby waking up,0.0,0.0,0.0,9.0
+balloon blowing,1.0,0.058823529411764705,0.1111111111111111,17.0
+bandaging,0.0,0.0,0.0,14.0
+bench pressing,0.0,0.0,0.0,33.0
+blasting sand,0.0,0.0,0.0,15.0
+canoeing or kayaking,1.0,0.04,0.07692307692307693,25.0
+capoeira,0.0,0.0,0.0,32.0
+changing oil,0.0,0.0,0.0,13.0
+changing wheel,0.0,0.0,0.0,7.0
+cooking on campfire,0.2727272727272727,0.6,0.375,5.0
+dancing ballet,0.0,0.0,0.0,30.0
+dancing charleston,0.0,0.0,0.0,9.0
+dancing macarena,0.0,0.0,0.0,18.0
+doing nails,0.0,0.0,0.0,19.0
+driving car,1.0,0.10526315789473684,0.19047619047619047,19.0
+dunking basketball,0.0,0.0,0.0,29.0
+feeding goats,1.0,0.3793103448275862,0.55,29.0
+fixing hair,0.0,0.0,0.0,14.0
+frying vegetables,0.0,0.0,0.0,12.0
+hurdling,0.0,0.0,0.0,14.0
+javelin throw,0.0,0.0,0.0,18.0
+jogging,0.0,0.0,0.0,6.0
+juggling soccer ball,0.0,0.0,0.0,7.0
+laughing,1.0,0.14285714285714285,0.25,21.0
+laying bricks,0.0,0.0,0.0,9.0
+lunge,1.0,0.06666666666666667,0.125,15.0
+making snowman,0.0,0.0,0.0,20.0
+moving furniture,0.0,0.0,0.0,9.0
+plastering,0.0,0.0,0.0,6.0
+playing badminton,0.25,0.04,0.06896551724137931,25.0
+playing chess,0.0,0.0,0.0,18.0
+playing didgeridoo,0.0,0.0,0.0,17.0
+playing keyboard,0.0,0.0,0.0,16.0
+playing trombone,0.0,0.0,0.0,30.0
+playing xylophone,0.0,0.0,0.0,17.0
+pole vault,0.0,0.0,0.0,23.0
+pumping fist,0.0,0.0,0.0,24.0
+pushing wheelchair,0.0,0.0,0.0,8.0
+riding elephant,0.0,0.0,0.0,27.0
+riding mountain bike,0.0,0.0,0.0,10.0
+riding unicycle,0.0,0.0,0.0,17.0
+ripping paper,0.0,0.0,0.0,13.0
+sharpening knives,0.0,0.0,0.0,10.0
+shuffling cards,0.0,0.0,0.0,17.0
+sign language interpreting,0.0,0.0,0.0,6.0
+skateboarding,0.0,0.0,0.0,26.0
+snatch weight lifting,0.0,0.0,0.0,24.0
+snorkeling,0.0,0.0,0.0,25.0
+spray painting,1.0,0.13636363636363635,0.24,22.0
+squat,0.0,0.0,0.0,26.0
+swinging legs,0.0,0.0,0.0,8.0
+tango dancing,0.0,0.0,0.0,24.0
+trimming or shaving beard,0.0,0.0,0.0,24.0
+tying bow tie,0.0,0.0,0.0,5.0
+unloading truck,0.0,0.0,0.0,7.0
+vault,0.0,0.0,0.0,13.0
+waiting in line,0.0,0.0,0.0,7.0
+micro avg,0.05942622950819672,0.058,0.058704453441295545,1000.0
+macro avg,0.12704995867882082,0.06323807463369223,0.03629598827602457,1000.0
+weighted avg,0.15701649703760853,0.058,0.0420612647223718,1000.0
