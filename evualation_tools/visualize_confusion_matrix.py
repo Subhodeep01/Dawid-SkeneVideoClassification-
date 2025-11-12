@@ -42,13 +42,13 @@ def plot_confusion_matrix_heatmap(cm_df, output_dir, method_name='Dawid-Skene'):
     )
     
     ax.set_title(f'{method_name}: Confusion Matrix\n(True Labels vs Predicted Labels)', 
-                 fontsize=18, fontweight='bold', pad=20)
-    ax.set_xlabel('Predicted Label', fontsize=14, fontweight='bold')
-    ax.set_ylabel('True Label', fontsize=14, fontweight='bold')
+                 fontsize=24, fontweight='bold', pad=20, color='black')
+    ax.set_xlabel('Predicted Label', fontsize=20, fontweight='bold', color='black')
+    ax.set_ylabel('True Label', fontsize=20, fontweight='bold', color='black')
     
     # Rotate labels
-    plt.xticks(rotation=90, ha='right', fontsize=8)
-    plt.yticks(rotation=0, fontsize=8)
+    plt.xticks(rotation=90, ha='right', fontsize=12, fontweight='bold', color='black')
+    plt.yticks(rotation=0, fontsize=12, fontweight='bold', color='black')
     
     plt.tight_layout()
     
@@ -86,13 +86,13 @@ def plot_normalized_confusion_matrix(cm_df, output_dir, method_name='Dawid-Skene
     )
     
     ax.set_title(f'{method_name}: Normalized Confusion Matrix\n(Row-wise: True Label Distribution)', 
-                 fontsize=18, fontweight='bold', pad=20)
-    ax.set_xlabel('Predicted Label', fontsize=14, fontweight='bold')
-    ax.set_ylabel('True Label', fontsize=14, fontweight='bold')
+                 fontsize=24, fontweight='bold', pad=20, color='black')
+    ax.set_xlabel('Predicted Label', fontsize=20, fontweight='bold', color='black')
+    ax.set_ylabel('True Label', fontsize=20, fontweight='bold', color='black')
     
     # Rotate labels
-    plt.xticks(rotation=90, ha='right', fontsize=8)
-    plt.yticks(rotation=0, fontsize=8)
+    plt.xticks(rotation=90, ha='right', fontsize=12, fontweight='bold', color='black')
+    plt.yticks(rotation=0, fontsize=12, fontweight='bold', color='black')
     
     plt.tight_layout()
     
@@ -153,14 +153,17 @@ def plot_per_class_accuracy_from_cm(cm_df, output_dir, method_name='Dawid-Skene'
     ax.axhline(y=0.7, color='orange', linestyle='--', linewidth=1.5, alpha=0.3)
     
     # Customize
-    ax.set_xlabel('Activity Class', fontsize=14, fontweight='bold')
-    ax.set_ylabel('Accuracy (Correct / Total)', fontsize=14, fontweight='bold')
+    ax.set_xlabel('Activity Class', fontsize=20, fontweight='bold', color='black')
+    ax.set_ylabel('Accuracy (Correct / Total)', fontsize=20, fontweight='bold', color='black')
     ax.set_title(f'{method_name}: Per-Class Accuracy from Confusion Matrix\n(Sorted by Accuracy)', 
-                 fontsize=16, fontweight='bold', pad=20)
+                 fontsize=24, fontweight='bold', pad=20, color='black')
     ax.set_xticks(x_pos)
-    ax.set_xticklabels(sorted_classes, rotation=90, ha='right', fontsize=9)
+    ax.set_xticklabels(sorted_classes, rotation=90, ha='right', fontsize=13, fontweight='bold', color='black')
     ax.set_ylim(0, 1.05)
-    ax.legend(loc='upper right', fontsize=11, framealpha=0.9)
+    ax.tick_params(axis='y', labelsize=14, labelcolor='black')
+    for label in ax.get_yticklabels():
+        label.set_fontweight('bold')
+    ax.legend(loc='upper right', fontsize=14, framealpha=0.9)
     ax.grid(axis='y', alpha=0.3, linestyle='--')
     
     # Add labels for poor performers
@@ -227,10 +230,13 @@ def analyze_confusion_pairs(cm_df, output_dir, method_name='Dawid-Skene', top_n=
         bars = ax.barh(y_pos, counts, color='coral', alpha=0.7, edgecolor='black')
         
         ax.set_yticks(y_pos)
-        ax.set_yticklabels(labels, fontsize=9)
-        ax.set_xlabel('Number of Misclassifications', fontsize=12, fontweight='bold')
+        ax.set_yticklabels(labels, fontsize=13, fontweight='bold', color='black')
+        ax.set_xlabel('Number of Misclassifications', fontsize=18, fontweight='bold', color='black')
         ax.set_title(f'{method_name}: Top {top_n} Most Confused Class Pairs\n(True Class → Predicted Class)', 
-                     fontsize=14, fontweight='bold', pad=20)
+                     fontsize=22, fontweight='bold', pad=20, color='black')
+        ax.tick_params(axis='x', labelsize=14, labelcolor='black')
+        for label in ax.get_xticklabels():
+            label.set_fontweight('bold')
         ax.grid(axis='x', alpha=0.3)
         
         # Add value labels
@@ -337,13 +343,16 @@ def plot_class_distribution(cm_df, output_dir, method_name='Dawid-Skene'):
     ax.axhline(y=avg_count, color='red', linestyle='--', linewidth=2,
                label=f'Average: {avg_count:.1f}', alpha=0.7)
     
-    ax.set_xlabel('Activity Class', fontsize=12, fontweight='bold')
-    ax.set_ylabel('Number of Samples', fontsize=12, fontweight='bold')
+    ax.set_xlabel('Activity Class', fontsize=18, fontweight='bold', color='black')
+    ax.set_ylabel('Number of Samples', fontsize=18, fontweight='bold', color='black')
     ax.set_title(f'{method_name}: Sample Distribution per Class\n(Sorted by Count)', 
-                 fontsize=14, fontweight='bold', pad=20)
+                 fontsize=22, fontweight='bold', pad=20, color='black')
     ax.set_xticks(x_pos)
-    ax.set_xticklabels(class_counts.index, rotation=90, ha='right', fontsize=8)
-    ax.legend(fontsize=11)
+    ax.set_xticklabels(class_counts.index, rotation=90, ha='right', fontsize=12, fontweight='bold', color='black')
+    ax.tick_params(axis='y', labelsize=14, labelcolor='black')
+    for label in ax.get_yticklabels():
+        label.set_fontweight('bold')
+    ax.legend(fontsize=14)
     ax.grid(axis='y', alpha=0.3)
     
     plt.tight_layout()
@@ -362,8 +371,8 @@ def main():
     print("=" * 100)
     
     # Input file
-    input_file = 'evaluation_results/dawid_skene_confusion_matrix.csv'
-    output_dir = 'evaluation_results/visualizations'
+    input_file = '../evaluation_results/dawid_skene_confusion_matrix.csv'
+    output_dir = '../evaluation_results/visualizations'
     method_name = 'Dawid-Skene'
     
     # Create output directory

@@ -167,13 +167,13 @@ def plot_annotator_heatmap(error_matrix, annotator_name, classes, output_dir):
     )
     
     plt.title(f'Annotator Accuracy Matrix: {annotator_name}\n(Final Iteration)', 
-              fontsize=16, fontweight='bold', pad=20)
-    plt.xlabel('Predicted Class (Annotator Response)', fontsize=12, fontweight='bold')
-    plt.ylabel('True Class', fontsize=12, fontweight='bold')
+              fontsize=24, fontweight='bold', pad=20, color='black')
+    plt.xlabel('Predicted Class (Annotator Response)', fontsize=20, fontweight='bold', color='black')
+    plt.ylabel('True Class', fontsize=20, fontweight='bold', color='black')
     
     # Rotate labels for readability
-    plt.xticks(rotation=90, ha='right', fontsize=8)
-    plt.yticks(rotation=0, fontsize=8)
+    plt.xticks(rotation=90, ha='right', fontsize=12, fontweight='bold', color='black')
+    plt.yticks(rotation=0, fontsize=12, fontweight='bold', color='black')
     
     plt.tight_layout()
     
@@ -200,14 +200,17 @@ def plot_diagonal_accuracy(error_matrix, annotator_name, classes, output_dir):
     plt.axhline(y=np.mean(diagonal_accuracies), color='blue', linestyle='--', 
                 linewidth=2, label=f'Average: {np.mean(diagonal_accuracies):.3f}')
     
-    plt.xlabel('Class', fontsize=12, fontweight='bold')
-    plt.ylabel('Accuracy (Diagonal Probability)', fontsize=12, fontweight='bold')
+    plt.xlabel('Class', fontsize=20, fontweight='bold', color='black')
+    plt.ylabel('Accuracy (Diagonal Probability)', fontsize=20, fontweight='bold', color='black')
     plt.title(f'Per-Class Accuracy for {annotator_name}\n(Probability of Correct Classification)', 
-              fontsize=14, fontweight='bold')
-    plt.xticks(x_pos, classes, rotation=90, ha='right', fontsize=8)
+              fontsize=24, fontweight='bold', color='black')
+    plt.xticks(x_pos, classes, rotation=90, ha='right', fontsize=13, fontweight='bold', color='black')
+    plt.tick_params(axis='y', labelsize=14, labelcolor='black')
+    for label in plt.gca().get_yticklabels():
+        label.set_fontweight('bold')
     plt.ylim(0, 1.0)
     plt.grid(axis='y', alpha=0.3)
-    plt.legend()
+    plt.legend(fontsize=14)
     
     plt.tight_layout()
     
@@ -261,23 +264,29 @@ def plot_convergence_metrics(log_likelihood_history, convergence_history,
     
     # Plot log-likelihood
     ax1.plot(iterations, log_likelihood_history, 'b-', linewidth=2, marker='o')
-    ax1.set_xlabel('Iteration', fontsize=12, fontweight='bold')
-    ax1.set_ylabel('Log-Likelihood', fontsize=12, fontweight='bold')
-    ax1.set_title('Dawid-Skene Convergence: Log-Likelihood', fontsize=14, fontweight='bold')
+    ax1.set_xlabel('Iteration', fontsize=18, fontweight='bold', color='black')
+    ax1.set_ylabel('Log-Likelihood', fontsize=18, fontweight='bold', color='black')
+    ax1.set_title('Dawid-Skene Convergence: Log-Likelihood', fontsize=22, fontweight='bold', color='black')
+    ax1.tick_params(axis='both', labelsize=14, labelcolor='black')
+    for label in ax1.get_xticklabels() + ax1.get_yticklabels():
+        label.set_fontweight('bold')
     ax1.grid(True, alpha=0.3)
     
     # Plot accuracy
     ax2.plot(iterations, accuracies, 'g-', linewidth=2, marker='s')
-    ax2.set_xlabel('Iteration', fontsize=12, fontweight='bold')
-    ax2.set_ylabel('Accuracy', fontsize=12, fontweight='bold')
-    ax2.set_title('Dawid-Skene Convergence: Accuracy', fontsize=14, fontweight='bold')
+    ax2.set_xlabel('Iteration', fontsize=18, fontweight='bold', color='black')
+    ax2.set_ylabel('Accuracy', fontsize=18, fontweight='bold', color='black')
+    ax2.set_title('Dawid-Skene Convergence: Accuracy', fontsize=22, fontweight='bold', color='black')
     ax2.set_ylim(0, 1.0)
+    ax2.tick_params(axis='both', labelsize=14, labelcolor='black')
+    for label in ax2.get_xticklabels() + ax2.get_yticklabels():
+        label.set_fontweight('bold')
     ax2.grid(True, alpha=0.3)
     
     # Add final accuracy text
     final_acc = accuracies[-1] if accuracies else 0
     ax2.text(0.02, 0.98, f'Final Accuracy: {final_acc:.4f} ({final_acc*100:.2f}%)',
-             transform=ax2.transAxes, fontsize=11, verticalalignment='top',
+             transform=ax2.transAxes, fontsize=15, fontweight='bold', verticalalignment='top',
              bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
     
     plt.tight_layout()

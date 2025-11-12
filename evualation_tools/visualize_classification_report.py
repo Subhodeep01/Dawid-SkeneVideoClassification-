@@ -57,14 +57,17 @@ def plot_per_class_metrics(df_classes, output_dir, method_name='Dawid-Skene'):
     ax.axhline(y=0.5, color='red', linestyle='--', linewidth=1.5, alpha=0.5, label='50% threshold')
     
     # Customize plot
-    ax.set_xlabel('Activity Class', fontsize=14, fontweight='bold')
-    ax.set_ylabel('Score', fontsize=14, fontweight='bold')
+    ax.set_xlabel('Activity Class', fontsize=20, fontweight='bold', color='black')
+    ax.set_ylabel('Score', fontsize=20, fontweight='bold', color='black')
     ax.set_title(f'{method_name}: Per-Class Performance Metrics\n(Sorted by F1-Score)', 
-                 fontsize=16, fontweight='bold', pad=20)
+                 fontsize=24, fontweight='bold', pad=20, color='black')
     ax.set_xticks(x_pos)
-    ax.set_xticklabels(classes, rotation=90, ha='right', fontsize=9)
+    ax.set_xticklabels(classes, rotation=90, ha='right', fontsize=13, fontweight='bold', color='black')
     ax.set_ylim(0, 1.05)
-    ax.legend(loc='upper right', fontsize=11, framealpha=0.9)
+    ax.tick_params(axis='y', labelsize=14, labelcolor='black')
+    for label in ax.get_yticklabels():
+        label.set_fontweight('bold')
+    ax.legend(loc='upper right', fontsize=14, framealpha=0.9)
     ax.grid(axis='y', alpha=0.3, linestyle='--')
     
     # Add average line
@@ -116,14 +119,17 @@ def plot_f1_score_only(df_classes, output_dir, method_name='Dawid-Skene'):
     ax.axhline(y=0.5, color='red', linestyle='--', linewidth=1.5, alpha=0.4)
     
     # Customize
-    ax.set_xlabel('Activity Class', fontsize=14, fontweight='bold')
-    ax.set_ylabel('F1-Score', fontsize=14, fontweight='bold')
+    ax.set_xlabel('Activity Class', fontsize=20, fontweight='bold', color='black')
+    ax.set_ylabel('F1-Score', fontsize=20, fontweight='bold', color='black')
     ax.set_title(f'{method_name}: F1-Score per Class\n(Green ≥0.9, Orange ≥0.7, Dark Orange ≥0.5, Red <0.5)', 
-                 fontsize=16, fontweight='bold', pad=20)
+                 fontsize=24, fontweight='bold', pad=20, color='black')
     ax.set_xticks(x_pos)
-    ax.set_xticklabels(classes, rotation=90, ha='right', fontsize=9)
+    ax.set_xticklabels(classes, rotation=90, ha='right', fontsize=13, fontweight='bold', color='black')
     ax.set_ylim(0, 1.05)
-    ax.legend(loc='upper right', fontsize=12, framealpha=0.9)
+    ax.tick_params(axis='y', labelsize=14, labelcolor='black')
+    for label in ax.get_yticklabels():
+        label.set_fontweight('bold')
+    ax.legend(loc='upper right', fontsize=15, framealpha=0.9)
     ax.grid(axis='y', alpha=0.3, linestyle='--')
     
     # Add value labels on top of bars for low performers
@@ -158,24 +164,19 @@ def plot_metrics_heatmap(df_classes, output_dir, method_name='Dawid-Skene'):
     # Set ticks
     ax.set_xticks(np.arange(len(df_classes)))
     ax.set_yticks(np.arange(3))
-    ax.set_xticklabels(df_classes.index, rotation=90, ha='right', fontsize=9)
-    ax.set_yticklabels(['Precision', 'Recall', 'F1-Score'], fontsize=12, fontweight='bold')
+    ax.set_xticklabels(df_classes.index, rotation=90, ha='right', fontsize=13, fontweight='bold', color='black')
+    ax.set_yticklabels(['Precision', 'Recall', 'F1-Score'], fontsize=18, fontweight='bold', color='black')
     
     # Add colorbar
     cbar = plt.colorbar(im, ax=ax, orientation='vertical', pad=0.01)
-    cbar.set_label('Score', fontsize=12, fontweight='bold')
+    cbar.set_label('Score', fontsize=16, fontweight='bold', color='black')
+    cbar.ax.tick_params(labelsize=13, labelcolor='black')
+    for label in cbar.ax.get_yticklabels():
+        label.set_fontweight('bold')
     
-    # Add values in cells
-    for i in range(3):
-        for j in range(len(df_classes)):
-            value = data_matrix[i, j]
-            color = 'white' if value < 0.5 else 'black'
-            text = ax.text(j, i, f'{value:.2f}', ha='center', va='center',
-                          color=color, fontsize=7, fontweight='bold')
-    
-    # Title
+    # Title (removed cell annotations for clarity)
     ax.set_title(f'{method_name}: Performance Metrics Heatmap\n(All Activity Classes)', 
-                 fontsize=16, fontweight='bold', pad=20)
+                 fontsize=24, fontweight='bold', pad=20, color='black')
     
     plt.tight_layout()
     
@@ -222,18 +223,21 @@ def plot_support_vs_f1(df_classes, output_dir, method_name='Dawid-Skene'):
     ax.plot(support, p(support), "r--", alpha=0.5, linewidth=2, 
             label=f'Trend: y={z[0]:.4f}x+{z[1]:.4f}')
     
-    ax.set_xlabel('Support (Number of Samples)', fontsize=12, fontweight='bold')
-    ax.set_ylabel('F1-Score', fontsize=12, fontweight='bold')
+    ax.set_xlabel('Support (Number of Samples)', fontsize=18, fontweight='bold', color='black')
+    ax.set_ylabel('F1-Score', fontsize=18, fontweight='bold', color='black')
     ax.set_title(f'{method_name}: F1-Score vs Sample Size\n(Correlation Analysis)', 
-                 fontsize=14, fontweight='bold', pad=20)
+                 fontsize=22, fontweight='bold', pad=20, color='black')
     ax.grid(True, alpha=0.3)
-    ax.legend(fontsize=11)
+    ax.tick_params(axis='both', labelsize=14, labelcolor='black')
+    for label in ax.get_xticklabels() + ax.get_yticklabels():
+        label.set_fontweight('bold')
+    ax.legend(fontsize=14)
     ax.set_ylim(0, 1.05)
     
     # Add correlation coefficient
     corr = np.corrcoef(support, f1_scores)[0, 1]
     ax.text(0.02, 0.98, f'Correlation: {corr:.3f}', 
-            transform=ax.transAxes, fontsize=11, verticalalignment='top',
+            transform=ax.transAxes, fontsize=15, fontweight='bold', verticalalignment='top',
             bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.7))
     
     plt.tight_layout()
@@ -319,8 +323,8 @@ def main():
     print("=" * 100)
     
     # Input file
-    input_file = 'evaluation_results/dawid_skene_classification_report.csv'
-    output_dir = 'evaluation_results/visualizations'
+    input_file = '../evaluation_results/dawid_skene_classification_report.csv'
+    output_dir = '../evaluation_results/visualizations'
     method_name = 'Dawid-Skene'
     
     # Create output directory
