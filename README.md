@@ -193,8 +193,7 @@ Each CSV contains:
 To compute accuracy, precision, recall, F1-score, and confusion matrices:
 
 ```powershell
-cd evualation_tools
-python evaluation.py
+python evualation_tools/evaluation.py
 ```
 
 **Output:**
@@ -215,8 +214,7 @@ The Dawid-Skene algorithm tracks convergence and estimates annotator (classifier
 #### 1. Generate Annotator Accuracy Heatmaps & Convergence Plots
 
 ```powershell
-cd evualation_tools
-python dawid_skene_visualization.py
+python evualation_tools/dawid_skene_visualization.py
 ```
 
 **Outputs** (in `dawid_skene_visualizations/`):
@@ -244,8 +242,7 @@ python dawid_skene_visualization.py
 #### 2. Visualize Classification Report (Precision, Recall, F1)
 
 ```powershell
-cd evualation_tools
-python visualize_classification_report.py
+python evualation_tools/visualize_classification_report.py
 ```
 
 This generates **per-class performance visualizations** from the Dawid-Skene classification report:
@@ -266,8 +263,7 @@ method_name = 'Gemini'  # Change this
 #### 3. Visualize Confusion Matrix
 
 ```powershell
-cd evualation_tools
-python visualize_confusion_matrix.py
+python evualation_tools/visualize_confusion_matrix.py
 ```
 
 This generates **confusion matrix visualizations** from the Dawid-Skene confusion matrix:
@@ -291,17 +287,16 @@ method_name = 'Ensemble'  # Change this
 python video_classification_graph.py --start 1 --end 1000
 
 # Step 2: Evaluate all models
-cd evualation_tools
-python evaluation.py
+python evualation_tools/evaluation.py
 
 # Step 3: Visualize Dawid-Skene convergence and annotator quality
-python dawid_skene_visualization.py
+python evualation_tools/dawid_skene_visualization.py
 
 # Step 4: Visualize per-class metrics (precision, recall, F1)
-python visualize_classification_report.py
+python evualation_tools/visualize_classification_report.py
 
 # Step 5: Visualize confusion matrix
-python visualize_confusion_matrix.py
+python evualation_tools/visualize_confusion_matrix.py
 ```
 
 ## Features
@@ -331,18 +326,6 @@ python visualize_confusion_matrix.py
 | MoonDream2 | 5.8% | Single Classifier |
 
 **Key Finding**: Dawid-Skene outperforms simple majority voting by 0.20% by correctly weighting classifier reliability.
-
-## API Comparison
-
-| API | Cost/Video | Speed | Accuracy | Native Video | Audio Support |
-|-----|-----------|-------|----------|--------------|---------------|
-| **Gemini Flash** | $0.002-0.01 | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ✅ | ✅ |
-| **GPT-5-mini** | $0.01-0.02 | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ❌ (frames) | ❌ |
-| **Twelve Labs** | $$$ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ✅ | ✅ |
-| **GPT-4o-mini** | $0.01-0.02 | ⭐⭐⭐ | ⭐⭐⭐⭐ | ❌ (frames) | ❌ |
-| **Qwen-VL** | $0.005-0.01 | ⭐⭐⭐ | ⭐⭐⭐ | ✅ | ✅ |
-| **Replicate** | $0.01-0.03 | ⭐⭐ | ⭐⭐⭐ | ❌ (frames) | ❌ |
-| **MoonDream2** | $0.001-0.01 | ⭐⭐ | ⭐ | ❌ (frames) | ❌ |
 
 ## Requirements
 
